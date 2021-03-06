@@ -192,5 +192,8 @@ hr {
   .profile {
     width: 75%;
   }
-
+.skill-row {
+    width: 75%;
+    color: red;
+  }
 }
