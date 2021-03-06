@@ -101,6 +101,27 @@ hr {
   margin-left: 30px;
 }
 
+
+
+#testimonials {
+  background-color: #66BFBF;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+.client {
+  color: #ffffff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+  
 .btn {
   background: #66BFBF;
  background-image: -webkit-linear-gradient(top, #66BFBF, #1EC3D0);
