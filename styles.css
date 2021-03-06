@@ -163,3 +163,10 @@ hr {
   font-size: 0.75rem;
 
 }
+
+@media (max-width: 800px) {
+  .text-hello {
+    color: red;
+  }
+
+}
