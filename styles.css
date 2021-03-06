@@ -197,3 +197,14 @@ hr {
     color: red;
   }
 }
+@media (max-width: 768px) {
+  .dress {
+    width: 27%;
+    margin: 0;
+  }
+
+  .jeans {
+    width: 25%;
+
+  }
+}
