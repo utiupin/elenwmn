@@ -165,8 +165,8 @@ hr {
 }
 
 @media (max-width: 800px) {
-  .text-hello {
-    color: red;
+  .profile {
+   width: 50%;
   }
 
 }
