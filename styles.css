@@ -5,7 +5,9 @@
   position: relative;
 }
 
-
+.bottom-container {
+  margin-top: 100px;
+}
 
 body {
   margin: 0;
@@ -46,9 +48,7 @@ hr {
   margin-top: 5px;
 }
 
-.text-hello {
-  color: #40514E;
-}
+
 
 .jeans {
   width: 12%;
@@ -67,23 +67,28 @@ hr {
 
 .profile {
   text-align: center;
-  width: 25%;
+  width: 50%;
   line-height: 2;
   margin: auto;
 }
 
-.mannequin-img {
-  width: 50%;
+.lena-photo {
+  width: 25%;
   margin-top: 100px;
+  margin-bottom: 25px;
   border-radius: 50%;
-}
-.skills {
-  height: 630px;
 
 }
+
+.text-hello {
+  color: #40514E;
+  margin-bottom: 50px;
+
+}
+
 
 .skill-row {
-  width: 50%;
+  width: 51%;
   margin: 100px auto;
   text-align: left;
   line-height: 2;
@@ -93,28 +98,33 @@ hr {
   width: 25%;
   float: left;
   margin-right: 30px;
+  border-radius: 50%;
+
 }
 
 .dress-img {
   width: 25%;
   float: right;
   margin-left: 30px;
+  border-radius: 50%;
+
+
 }
 
 
 #testimonials {
   background-color: #66BFBF;
-
+  margin-top: 50px;
 
 }
 
-
-
-
 .testimonial-text {
-  font-size: 2rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   color: #FFFFFF;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 15px;
 }
 
 .client {
@@ -149,7 +159,7 @@ hr {
  cursor: pointer;
  text-align: center;
  margin-top: 60px;
- margin-bottom: 100px;
+ /* margin-bottom: 100px; */
 }
 
 .btn:hover {
@@ -159,10 +169,14 @@ hr {
  border-radius: 8px;
  text-decoration: none;
 }
+
+
+
 .bottom-container {
   background-color: #66BFBF;
   padding-top: 50px;
   padding-bottom: 20px;
+  margin-top: 100px;
 }
 
   .contact-message {
@@ -177,8 +191,12 @@ hr {
   padding-left: 20px;
   padding-right: 20px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   color: #11999E;
+}
+
+#insta:hover {
+color: #E1306C;
 }
 
 .copyright {
@@ -187,6 +205,7 @@ hr {
   color: #EAF6F6;
   font-size: 0.75rem;
 }
+
 
 @media (max-width: 800px) {
 
@@ -211,5 +230,6 @@ hr {
   .contact-message {
     width: 75%;
   }
+
 
 }
